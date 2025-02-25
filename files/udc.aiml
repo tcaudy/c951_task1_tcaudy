@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>HI</pattern>
+    <template>
+        Hello! I hope your day is going well. My goal through this session is to gauge what you like most in the realm of computer science and recommend a job you would be most proficient in. To better help you, please
+        describe what you enjoy doing with computers i.e (programming, gaming, designing, security, etc.).
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set>gamedev</set> ^</pattern>
+    <template>I recommend you consider becoming a Game Developer. If you love gaming and creating technology, this is a great fit!</template>
+</category>
+
+<category>
+    <pattern>^ <set>softeng</set> ^</pattern>
+    <template>I recommend you consider becoming a software engineer. If you love working with programming languages such as Java, C++, or Python and creating software, this is a great fit!</template>
+</category>
+
+<category>
+    <pattern>^ <set>cybsec</set> ^</pattern>
+    <template>I recommend you consider becoming a cybersecurity analyst. If you love being in control of the security of systems as well as maintaining data integrity, confidentiality, and availability, this is a great fit!</template>
+</category>
+
+<category>
+    <pattern>^ <set>hardeng</set> ^</pattern>
+    <template>I recommend you consider becoming a hardware engineer. If you love working with the hardware of a computer such as building CPUs, GPUs, or any of the key internals to a computer, this is a great fit!</template>
+</category>
+
+<category>
+    <pattern>^ <set>webdev</set> ^</pattern>
+    <template>I recommend you consider becoming a web developer. If you love working with webpages and using languages such as HTML, CSS, and JavaScript, this is a great fit!</template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <template>It's difficult for me to recommend a job based on that answer. Please provide with with some information regarding what you like about computers and/or doing with them.</template>
+</category>
+</aiml>
